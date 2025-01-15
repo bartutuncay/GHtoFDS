@@ -8,14 +8,16 @@ Type: Grasshopper
 
 ### Default settings:
  
- -Office room 5*5*2.5m 
+ -Office room 5x5x2.5m 
  
  -Vents and furnitures with rule-based placement
  
  -Saves to FDS file at specified location
 
-Filtering Script:
--Filename:
--Type: Jupyter Notebook
--Default settings:
+##Filtering Script:
+Filename:
+
+Type: Jupyter Notebook
+
+###Default settings:
  - 
