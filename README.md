@@ -114,10 +114,15 @@ Filename: Plot_Velocity.ipynb
 Type: Jupyter Notebook
 
 ### Instructions
+1. Import libraries and define simulation file paths
+2. Create lists based on desired attributes, filtered by attributes dataframe
+3. Plot mean velocity at different heights, aggregated by attributes
+4. Remaining cells for plotting scatter plots and histograms based on desired attribute
 
 ### Default Settings
 - Aggregated by case type
 - Histograms and scatter plots available
+- Plots at t=600 seconds
 
 ## Carpet Plot
 ...
