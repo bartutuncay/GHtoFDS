@@ -26,12 +26,11 @@ Type: Grasshopper
 3. Enable saving to write files to directory
 
 ### Default settings:
- 
- -Office room 5x5x2.5m 
- 
- -Vents and furnitures with rule-based placement
- 
- -Saves to FDS file at specified location
+ - Office room 5x5x2.5m 
+ - Vents and furnitures with rule-based placement
+ - Saves to FDS file at specified location
+ - Simulation duration: 600 seconds
+ - Outputs: Temperature, Velocity (u,v,w, general), Pressure
 
 ## Attributes Script:
 Helps generate a Pandas dataframe to collect simulation attributes in a single environment.
@@ -91,5 +90,6 @@ The following parameters gave the best results for batches of 500 simulations, y
 
 ## Writing to Database
 
-- Results Visualization Script
-- HDF5 Script
+## References
+- Fire Dynamics Simulator: https://github.com/firemodels/fds
+- FDSReader: https://github.com/FireDynamics/fdsreader
