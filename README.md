@@ -103,7 +103,7 @@ Type: Jupyter Notebook
 ### Default Settings
 ...
 
-## Analysis at Higher Detail
+## Analysis with Finer Details
 ...
 
 ## Temperature vs. Velocity Distribution
