@@ -67,10 +67,29 @@ Type: Jupyter Notebook
 - Case type (str: heating, cooling, ventilation)
 - Heating system (str: none, floor heating, radiator, forced air)
 
-## Filtering Script
+## Batch Simulation
+Single simulations may be performed on a local device from the terminal, by moving to the simulation directory and running: fds simID.fds
 
-## TODO:
+For parallelization and higher efficiency, a HPC cluster can be used with the script: Batch.sh
+
+### Instructions
+1. Copy simulation files on cluster
+2. Modify Batch.sh to contain the correct number of simulations and path
+3. Modify parameters if necessary
+
+### Default settings:
+The following parameters gave the best results for batches of 500 simulations, your mileage may vary:
+- Max. CPU time: 2 hours
+- Number of parallel tasks: 10
+- Number of nodes: 6
+- Number of tasks per node: 2
+- Number of CPUs per task: 1
+
+## Filtering
+
+## Visualization
+
+## Writing to Database
 
 - Results Visualization Script
-- Batch Simulation Shell Scripts
 - HDF5 Script
