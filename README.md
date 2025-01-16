@@ -12,6 +12,7 @@ fdsreader
 matplotlib
 PIL
 numpy
+scipy
 
 ## Rhino/Grasshopper Geometry Generation Script: 
 Generates geometry and writes simulation file.
@@ -84,11 +85,30 @@ The following parameters gave the best results for batches of 500 simulations, y
 - Number of tasks per node: 2
 - Number of CPUs per task: 1
 
-## Filtering
+## Filtering and Visualization
+Jupyter notebook for parsing through FDS output files.
 
-## Visualization
+Filename: Filtering.ipynb
+
+Type: Jupyter Notebook
+
+### Instructions
+1. Import libraries
+2. Define simulation file paths for processing
+3. Obtain heat release rate; options to plot mean squared and absolute error, filter erratic cases
+4. Plotting for temperature, velocity quantities aggregated by case attributes
+5. Curve fitting for different quantities
+6. Calculation tool for device and occupant heat gains
+
+### Default Settings
+...
+
 
 ## Writing to Database
+...
+
+## Reading the Database
+...
 
 ## References
 - Fire Dynamics Simulator: https://github.com/firemodels/fds
