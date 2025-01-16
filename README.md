@@ -103,6 +103,24 @@ Type: Jupyter Notebook
 ### Default Settings
 ...
 
+## Analysis at Higher Detail
+...
+
+## Temperature vs. Velocity Distribution
+Jupyter notebook for creating scatter plots to visually observe correlations between temperature and velocity.
+
+Filename: Plot_Velocity.ipynb
+
+Type: Jupyter Notebook
+
+### Instructions
+
+### Default Settings
+- Aggregated by case type
+- Histograms and scatter plots available
+
+## Carpet Plot
+...
 
 ## Writing to Database
 ...
